@@ -383,9 +383,11 @@ footer.site { margin-top: 100px; background: var(--ink); color: #fff; border-rad
   .nav-call { display: none; }
   .brand img { height: 46px; }
   .nav-pill { padding: 8px 10px 8px 22px; }
-  .logos { gap: 28px; justify-content: center; }
-  .trust-row { justify-content: center; text-align: center; }
+  .trust-row { flex-direction: column; gap: 22px; text-align: center; }
   .trust p { max-width: none; }
+  .logos { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 20px; justify-items: center; align-items: center; width: 100%; flex: none; }
+  .logos img { height: auto; max-height: 40px; max-width: 100%; }
+  .logos img.tall { max-height: 52px; }
   .svc-grid { grid-template-columns: 1fr; }
   .stats { grid-template-columns: 1fr 1fr; row-gap: 34px; }
   .stat:nth-child(3) { border-left: 0; }
