@@ -206,6 +206,7 @@ section { position: relative; }
 .card .more:hover { gap: 12px; }
 .card.big { grid-row: span 2; }
 .card.big .ph { aspect-ratio: 1 / 1; }
+.card.big .ph img { object-position: 50% 12%; }
 .ticks { display: grid; gap: 9px; margin-top: 4px; }
 .ticks li { display: flex; gap: 10px; align-items: flex-start; font-size: 15.5px; color: var(--ink); }
 .ticks .icon { color: #fff; background: var(--red); border-radius: 50%; padding: 4px; width: 22px; height: 22px; margin-top: 2px; stroke-width: 3; }
